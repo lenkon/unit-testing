@@ -11,7 +11,7 @@ describe('add', () => {
 
   test('add -3 + 3', () => {
     expect(Calculator.add(-3, 3)).toBe(0);
-  });  
+  });
 });
 
 describe('subtract', () => {
@@ -46,7 +46,7 @@ describe('divide', () => {
   test('divide 3 / 1', () => {
     expect(Calculator.divide(3, 1)).toBe(3);
   });
-  
+
   test('divide -4 / 5', () => {
     expect(Calculator.divide(-4, 5)).toBe(-0.8);
   });

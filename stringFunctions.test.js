@@ -9,9 +9,8 @@ test('test incorrect string length', () => {
 });
 
 test('test incorrect string length', () => {
-  expect(stringFunctions.stringLength('Hello world!')).toBe('string length error');  
+  expect(stringFunctions.stringLength('Hello world!')).toBe('string length error');
 });
-
 
 test('test correct string reverse', () => {
   expect(stringFunctions.reverseString('Hello')).toBe('olleH');
